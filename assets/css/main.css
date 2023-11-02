@@ -2736,8 +2736,9 @@ input, select, textarea {
 
 		dl dt {
 			display: block;
-			font-weight: 400;
 			margin: 0 0 1rem 0;
+			font-weight: 600;
+			font-size: 1.1rem;
 		}
 
 		dl dd {
@@ -8750,4 +8751,19 @@ img.project-amateurhour {
 
 img.project-javascriptspanish {
 	object-position: 40% !important;
+}
+
+div.recommendation-container {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 75px;
+}
+
+h2.recommendations {
+	margin-bottom: 2.5rem;
+}
+
+img.recommendation-photo {
+	padding-right: 3rem;
+	height: 9rem;
 }
