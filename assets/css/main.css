@@ -3454,17 +3454,22 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-flex-direction: row;
-		-webkit-flex-direction: row;
-		-ms-flex-direction: row;
-		flex-direction: row;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
 		-moz-justify-content: -moz-space-around;
 		-webkit-justify-content: -webkit-space-around;
 		-ms-justify-content: -ms-space-around;
 		justify-content: space-around;
+		align-items: flex-start;
+		-moz-align-items: -moz-flex-start;
+		-webkit-align-items: -moz-flex-start;
+		-ms-align-items: -moz-flex-start;
 		position: relative;
 		text-align: center;
 		overflow-x: hidden;
+		margin-bottom: 30px;
 	}
 
 	.banner.style1 {
@@ -8636,6 +8641,32 @@ input, select, textarea {
 
 /* NEW SECTIONS AND ELEMENTS */
 
+div.education-employment-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+div.education-employment.skills-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 50px;
+}
+
+i.devicon {
+	font-size: 2.3rem;
+	margin: 9px;
+}
+
+img.figma, img.sketch {
+	height: 2.3rem;
+	margin: 3px
+}
+
 div.education-employment.img-container {
 	display: flex;
 	flex-direction: row;
@@ -8648,6 +8679,27 @@ img.education-employment.yale {
 }
 
 img.education-employment.aa {
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 30px;
+	object-fit: scale-down;
+}
+
+img.education-employment.meta {
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 30px;
+	object-fit: scale-down;
+}
+
+img.education-employment.hubspot {
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 30px;
+	object-fit: scale-down;
+}
+
+img.education-employment.getaway {
 	width: 150px;
 	margin-top: 10px;
 	margin-left: 30px;
