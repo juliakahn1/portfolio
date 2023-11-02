@@ -8707,3 +8707,8 @@ img.education-employment.getaway {
 	margin-left: 30px;
 	object-fit: scale-down;
 }
+
+section.wrapper.projects {
+	margin-top: 100px;
+	box-shadow: 0;
+}
