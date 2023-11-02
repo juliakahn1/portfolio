@@ -3472,7 +3472,8 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		overflow-x: hidden;
-		margin-bottom: 30px;
+		padding-bottom: 100px;
+		background-color: rgb(250, 250, 250);
 	}
 
 	.banner.style1 {
@@ -8753,10 +8754,14 @@ img.project-javascriptspanish {
 	object-position: 40% !important;
 }
 
+section.recommendations {
+	background-color: rgb(250, 250, 250);
+}
+
 div.recommendation-container {
 	display: flex;
 	align-items: flex-start;
-	margin-bottom: 75px;
+	margin-bottom: 50px;
 }
 
 h2.recommendations {
@@ -8765,5 +8770,14 @@ h2.recommendations {
 
 img.recommendation-photo {
 	padding-right: 3rem;
-	height: 9rem;
+	height: 8rem;
+}
+
+p.recommendation-body {
+	margin: 25px;
+}
+
+p.recommendation-giver {
+	padding: 0;
+	margin: 0;
 }
