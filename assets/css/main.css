@@ -8712,3 +8712,16 @@ section.wrapper.projects {
 	margin-top: 100px;
 	box-shadow: 0;
 }
+
+.image.projects {
+	border-right: 0.5px solid lightgray;
+	border-left: 0.5px solid lightgray;
+}
+
+img.project-amateurhour {
+	object-position: left !important;
+}
+
+img.project-javascriptspanish {
+	object-position: 40% !important;
+}
