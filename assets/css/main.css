@@ -8664,6 +8664,10 @@ h1.site-title {
 	font-weight: 900;
 }
 
+.button-nav {
+	padding: 0 1rem;
+}
+
 a.button.big.wide.smooth-scroll-middle.navigation {
 	box-shadow: none;
 	min-width: 0;
@@ -8673,6 +8677,11 @@ a.button.big.wide.smooth-scroll-middle.navigation {
 
 div.image.header {
 	width: 40rem;
+}
+
+.headshot-welcome-wrapper {
+	display: flex;
+	justify-content: center;
 }
 
 div.education-employment-container {
