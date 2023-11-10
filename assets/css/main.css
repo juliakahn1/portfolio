@@ -8849,7 +8849,7 @@ section.recommendations {
 
 div.recommendation-container {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	margin-bottom: 50px;
 }
 
@@ -8863,7 +8863,13 @@ dt.rec-highlight {
 
 img.recommendation-photo {
 	padding-right: 3rem;
-	height: 7rem;
+	height: 9rem;
+}
+
+div.recommendation-text {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
 }
 
 p.recommendation-body {
@@ -8873,6 +8879,27 @@ p.recommendation-body {
 p.recommendation-giver {
 	padding: 0;
 	margin: 0;
+}
+
+@media screen and (orientation: portrait) {
+	div.recommendation-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center
+
+	}
+
+	img.recommendation-photo {
+		padding-right: 0;
+		height: 7rem;
+	}
+
+	div.recommendation-text {
+		display: flex;
+		flex-direction: column;
+		padding: 2rem 1rem 0 1rem;
+		text-align: center;
+	}
 }
 
 ul.actions.stacked.contact {
