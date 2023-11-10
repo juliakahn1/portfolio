@@ -8702,6 +8702,16 @@ div.education-employment-container {
 	width: 100%;
 }
 
+div.education-employment.skills-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 50px;
+}
+
 @media screen and (orientation: portrait) {
 	.headshot {
 		max-width: 35% !important;
@@ -8716,25 +8726,20 @@ div.education-employment-container {
 		display: flex;
 		justify-content: space-around;
 		flex-direction: column;
-		align-items: center
+		align-items: center;
 	}
 
-	div.education {
+	div.education  {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		align-items: center;
 		margin-bottom: 50px;
 	}
 }
 
 
 
-div.education-employment.skills-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	width: 100%;
-	margin-top: 50px;
-}
 
 i.devicon {
 	font-size: 2.3rem;
