@@ -8712,6 +8712,32 @@ div.education-employment.skills-container {
 	margin-top: 50px;
 }
 
+
+div.education-employment.img-container {
+	display: flex;
+	flex-direction: row;
+}
+img.education-employment.meta {
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 30px;
+	object-fit: scale-down;
+}
+
+img.education-employment.hubspot {
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 30px;
+	object-fit: scale-down;
+}
+
+img.education-employment.getaway {
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 30px;
+	object-fit: scale-down;
+}
+
 @media screen and (orientation: portrait) {
 	.headshot {
 		max-width: 35% !important;
@@ -8730,11 +8756,26 @@ div.education-employment.skills-container {
 	}
 
 	div.employment  {
-		display: flex;
-		justify-content: space-around;
-		flex-direction: column;
-		align-items: center;
 		margin-top: 50px;
+	}
+
+	div.education-employment.img-container.companies {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	img.education-employment.meta {
+		margin-left: 0;
+	}
+
+	img.education-employment.hubspot {
+		margin-left: 0;
+	}
+
+	img.education-employment.getaway {
+		margin-left: 0;
 	}
 }
 
@@ -8748,11 +8789,6 @@ img.figma, img.sketch {
 	margin: 3px
 }
 
-div.education-employment.img-container {
-	display: flex;
-	flex-direction: row;
-}
-
 img.education-employment.yale {
 	width: 100px;
 	margin-top: 10px;
@@ -8760,27 +8796,6 @@ img.education-employment.yale {
 }
 
 img.education-employment.aa {
-	width: 150px;
-	margin-top: 10px;
-	margin-left: 30px;
-	object-fit: scale-down;
-}
-
-img.education-employment.meta {
-	width: 150px;
-	margin-top: 10px;
-	margin-left: 30px;
-	object-fit: scale-down;
-}
-
-img.education-employment.hubspot {
-	width: 150px;
-	margin-top: 10px;
-	margin-left: 30px;
-	object-fit: scale-down;
-}
-
-img.education-employment.getaway {
 	width: 150px;
 	margin-top: 10px;
 	margin-left: 30px;
