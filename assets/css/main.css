@@ -8691,25 +8691,7 @@ div.image.header {
 
 
 .headshot {
-	/* clip-path: circle(200px at center); */
 	border-radius: 50% !important;
-	/* max-width: 60% !important;
-	height: auto !important; */
-}
-
-@media (orientation: portrait) {
-	.headshot {
-		max-width: 35% !important;
-		height: auto !important;
-		/* object-fit: cover; */
-		/* border-radius: 50% !important; */
-		/* width: 50%; */
-		/* height: 50%; */
-		position: absolute;
-    top: 72% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%);
-	}
 }
 
 div.education-employment-container {
@@ -8718,6 +8700,30 @@ div.education-employment-container {
 	justify-content: space-around;
 	width: 100%;
 }
+
+@media (orientation: portrait) {
+	.headshot {
+		max-width: 35% !important;
+		height: auto !important;
+		position: absolute;
+    top: 72% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+	}
+
+	div.education-employment-container {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		align-items: center
+	}
+
+	div.education {
+		margin-bottom: 50px;
+	}
+}
+
+
 
 div.education-employment.skills-container {
 	display: flex;
