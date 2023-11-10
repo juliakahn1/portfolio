@@ -8729,17 +8729,14 @@ div.education-employment.skills-container {
 		align-items: center;
 	}
 
-	div.education  {
+	div.employment  {
 		display: flex;
 		justify-content: space-around;
 		flex-direction: column;
 		align-items: center;
-		margin-bottom: 50px;
+		margin-top: 50px;
 	}
 }
-
-
-
 
 i.devicon {
 	font-size: 2.3rem;
