@@ -3603,6 +3603,7 @@ input, select, textarea {
 					-webkit-justify-content: center;
 					-ms-justify-content: center;
 					justify-content: center;
+					align-items: center;
 					width: 100%;
 					max-width: 100%;
 				}
@@ -8701,7 +8702,7 @@ div.education-employment-container {
 	width: 100%;
 }
 
-@media (orientation: portrait) {
+@media screen and (orientation: portrait) {
 	.headshot {
 		max-width: 35% !important;
 		height: auto !important;
