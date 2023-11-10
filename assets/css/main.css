@@ -8646,6 +8646,7 @@ input, select, textarea {
 
 /* NEW SECTIONS AND ELEMENTS */
 
+
 header.header-wrapper {
 	top: 0;
 	width: 100%;
@@ -8674,6 +8675,19 @@ a.button.big.wide.smooth-scroll-middle.navigation {
 	min-width: 0;
 	font-weight: 900;
 
+}
+
+@media screen and (orientation: portrait) {
+	div.header-inner-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0rem 0rem 0rem 0rem;
+	}
+
+	div.site-title {
+		margin-top: 10px;
+	}
 }
 
 .headshot-welcome-wrapper {
