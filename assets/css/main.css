@@ -8699,10 +8699,14 @@ div.image.header {
 
 @media (orientation: portrait) {
 	.headshot {
+		max-width: 35% !important;
+		height: auto !important;
+		/* object-fit: cover; */
+		/* border-radius: 50% !important; */
 		/* width: 50%; */
-		/* height: 50; */
+		/* height: 50%; */
 		position: absolute;
-    top: 80% !important;
+    top: 72% !important;
     left: 50% !important;
     transform: translate(-50%, -50%);
 	}
