@@ -8662,9 +8662,15 @@ div.header-inner-wrapper {
 	margin: 1rem 7rem 1rem 7rem;
 }
 
-h1.site-title {
-	font-weight: 900;
+a.navigation.juliakahn {
+	height: auto;
 }
+
+h3.site-title {
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
 
 div.navigation-nav {
 	display: flex;
@@ -8695,6 +8701,12 @@ a.button.big.wide.smooth-scroll-middle.navigation {
 
 	div.navigation-nav {
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.navigation.button-nav {
+		font-size: 0.75rem;
 	}
 }
 
