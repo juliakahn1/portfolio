@@ -8666,6 +8666,10 @@ h1.site-title {
 	font-weight: 900;
 }
 
+div.navigation-nav {
+	display: flex;
+}
+
 .button-nav {
 	padding: 0 1rem;
 }
@@ -8687,6 +8691,10 @@ a.button.big.wide.smooth-scroll-middle.navigation {
 
 	div.site-title {
 		margin-top: 10px;
+	}
+
+	div.navigation-nav {
+		display: flex;
 	}
 }
 
